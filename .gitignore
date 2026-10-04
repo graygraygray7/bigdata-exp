@@ -1,0 +1,11 @@
+# 编译产物
+*.class
+hdfs-api/hdfs-api-1.0.jar
+mapreduce/mr-exp-1.0.jar
+
+# 运行时生成 / 本地结果备份
+hdfs-api/doc/build
+hdfs-api/doc/build.old
+mapreduce/doc/build
+mapreduce/doc/build.old
+output/

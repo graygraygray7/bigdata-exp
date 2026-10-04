@@ -1,0 +1,52 @@
+serious answers to absurd questions and absurd advice for common concerns from xkcd's Randall Munroe
+what if?
+how to:
+the news
+The next What If? video, "If you put a toaster in a freezer, which wins?" is up on YouTube now!
+Transatlantic Car Rental
+My daughter recently received her driver's permit in the US, and aspires to visit mainland Europe someday. She has learned enough about the rules of the road to know never to drive into the ocean; however, she jokingly suggested that given a sufficient quantity of rental cars, she could eventually get to Europe by driving east repeatedly. The question is, how many vehicles would it take to build a car-bridge across the Atlantic?
+Eric Munson
+After extensive research, I can conclusively state that this would be a violation of your rental car agreement.
+Also, you would disrupt ocean circulation in the North Atlantic, potentially seriously altering the climate in the northern hemisphere. That's very bad, although not necessarily a violation of your rental car agreement.
+If you try to drive from the US to Europe, your car will stop working pretty quickly, since according to Google Maps there's a large hole between them and it's full of water. Once your car gets stuck, you'll have to leave it there and go get another one.
+Driving your second car onto the roof of the sunken first one could get you a little closer to Europe. If we assume you're starting in Boston and heading toward Lisbon, using a car as a bridge would get you about a millionth of the way there, since Boston and Lisbon are about a million car-lengths apart. If the Atlantic Ocean were two feet deep, you could make a bridge out of a million cars placed end to end. Unfortunately, a quick rewatch of Titanic (1997) suggests that the Atlantic Ocean is more than two feet deep. You'll quickly have to start piling up cars in multiple layers.
+At first, when the bridge would be just one or two cars high, you could stack them in a single vertical column. But as the water gets deeper, you'll need to create a wider base to keep the wall of cars from tipping over.[1]A glance at piles of cars in a junkyard suggests that they often end up in stacks with an angle of repose of 30 or 45 degrees, but a stack with a 10°-15° angle of repose at the bottom should be stable once the cars are sufficiently crushed. The North Atlantic current would push against the car causeway, but the tipping force from the water motion would be relatively minor compared to the pile's tendency to topple under its own weight.[2]Mike Ashby's Useful Solutions to Standard Problems is a fantastic resource for these kinds of calculations. In this case, you could use it to figure out how a column of cars will topple, which would require an estimate of the compressibility of a stack of cars at different stages of flattening. I used specs from hydraulic car crushers to come up with my rough estimates here, but these estimates could probably be refined with experiment if you know someone with a lot of cars.
+As you built your bridge out into the deep ocean, the cars on the bottom of the stack would be crushed. The pressure crushing them wouldn't be the water pressure. Once the windows broke and the interior of the car flooded, the pressure would equalize and the cars would hold their shape, relatively unaffected by the weight of the ocean above them. Instead, what would crush the cars would be the weight of the other cars sitting on top of them.
+Even when they're underwater, cars weigh a lot. About 50% of the weight of modern cars is steel and iron, which is much denser than water,[3]Citation: You don't see a lot of anchors floating around. so submerged cars are still quite heavy—about 60% to 70% of their surface weight, depending on their exact composition. The cars on the bottom of a mile-high stack would be subjected to extreme pressures, even greater than what they experience in hydraulic car crushers. Those crushers[4]Most famous, of course, for imperiling George Frankly in an episode of MathNet, the detective show on PBS's Square One TV. are capable of flattening a car into a pancake a foot or two thick, and the same thing would happen to the cars on the bottom of our stack.
+The first part of your bridge to Europe would be over the continental shelf, where the water is relatively shallow—just a few hundred crushed cars deep.
+You'd still need a lot of cars to form this shallow-water portion of the bridge; getting out to the edge of the continental shelf would take about a billion of them, which is probably close to the total number of cars in the world. Parking lots hold about 1 car per 30 square meters, so a billion cars would cover a large portion of eastern Massachusetts.[5]Apparently all the world's cars would take up slightly more space than all the world's people.
+After the continental shelf, the water gets a lot deeper. The deep-ocean portion of your bridge would require a lot more cars—likely about a trillion of them. This is far more cars than exist in the world; a parking lot big enough to hold them would take up most of the Earth's land area.
+So you can't rent anywhere close to a billion or a trillion cars—Enterprise, for example, only has about half a million cars in its fleet. But if you tried, you'd run into other problems, too. I got a copy of a recent Enterprise rental car agreement, and I have some bad news:
+4. Prohibited Use and Termination of Right to Use.
+a. Renter agrees to the following limits on use:
+(4) Vehicle shall not be used for: any illegal purposes; in any illegal or reckless manner; in a race or speed contest; or to tow or push anything.
+(8) Vehicle shall not be loaded in excess of Vehicle’s Gross Vehicle Weight Rating [...]
+(9) Vehicle shall not be driven on an unpaved road or off-road.
+You'd clearly be in violation of 4(a)(9) by driving it off-road. I think you'd also be violating 4(a)(4) and probably 4(a)(8) as well. This would result in you being—at minimum—on the hook for the total cost of the rental car.[6]If you continue to operate the vehicle in such a manner, 4(d) says the company has the right to notify police that it has been stolen.
+Some credit cards offer coverage for rental car damage, so you might think that—if you're a high-status cardholder—you could try to get the company to foot the bill. Unfortunately, I took a look at the agreement for the American Express Centurion card, and the "What is Not covered" section clearly addresses this scenario:
+What is Not Covered?
+ANY COVERED EVENT BASED UPON OR ARISING OUT OF:
+3. Use of the Rental Vehicle in violation of the terms and conditions of the Rental Agreement
+8. off-road operation [...] of the Rental Vehicle
+11. intentional damage [...] to the Rental Vehicle
+Interestingly, American Express will also not cover damages incurred by using the rental car in a war:
+[...] 1. War or acts of war (whether declared or undeclared), service in the armed forces or units auxiliary to it [...]
+This rule could actually end up being relevant here. Your car bridge across the Atlantic, in addition to potentially disrupting ocean circulation, would cut off shipping access to northern Europe and much of Atlantic Canada...
+...which may qualify as a naval blockade.
+the books
+What If?
+Serious Scientific Answers to Absurd Hypothetical Questions
+more info >
+Thing Explainer
+Complicated Stuff in Simple Words
+more info >
+How To
+Absurd Scientific Advice for Common Real-World Problems
+more info >
+What If? 2
+More Serious Scientific Answers to Absurd Hypothetical Questions
+more info >
+comics from xkcd
+xkcd.com
+
+URL: https://what-if.xkcd.com/160/

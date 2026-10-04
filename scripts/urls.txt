@@ -1,0 +1,13 @@
+# 英文网页 URL 清单（每行一条，"名字 URL" 或直接 URL；# 开头为注释）
+# 直接抓 HTML 页面时脚本会自动去标签清理为纯文本
+# 注意: 依赖 JS 渲染的站点（如 go.dev）抓不到静态正文，会被自动丢弃
+# gnu-bash https://www.gnu.org/software/bash/
+# py-tutorial https://docs.python.org/3/tutorial/index.html
+# py-about https://www.python.org/about/
+# kernel-doc https://www.kernel.org/doc/html/latest/
+# tldp-bash https://tldp.org/LDP/Bash-Beginners-Guide/html/
+
+https://what-if.xkcd.com/161/
+https://what-if.xkcd.com/160/
+https://what-if.xkcd.com/158/
+https://what-if.xkcd.com/159/

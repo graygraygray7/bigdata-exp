@@ -1,0 +1,3 @@
+hello hadoop hello world
+hello mapreduce
+hello wsl2 hadoop

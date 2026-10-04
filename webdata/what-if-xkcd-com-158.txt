@@ -1,0 +1,37 @@
+serious answers to absurd questions and absurd advice for common concerns from xkcd's Randall Munroe
+what if?
+how to:
+the news
+The next What If? video, "If you put a toaster in a freezer, which wins?" is up on YouTube now!
+Hot Banana
+I heard that bananas are radioactive. If they are radioactive, then they radiate energy. How many bananas would you need to power a house?
+Kang JI
+Bananas are radioactive. But don't worry, it's fine.
+Bananas are radioactive because they contain potassium, some of which is the radioactive isotope potassium-40. The factoid about banana radioactivity was popularized by nuclear engineers trying to reassure people[1]After nuclear engineering, this is the main pastime of nuclear engineers. that small doses of radiation are normal and not necessarily dangerous. Of course, this kind of thing can backfire.
+Thanks to their use as a radiation dose comparison, bananas now have a reputation as an especially radioactive food, but they're really not. The CRC Handbook of Radiation Measurement and Protection, the source of the original data behind the banana factoid, lists lots of other foods with more potassium-40 than bananas, including coconuts, peanuts, and sweet potatoes. A large cheese pizza might be three times more radioactive than a banana,[2]Google has a handy tool for looking up the amount of potassium in foods, which even lets you select specific pizza brands. But for some reason, if you select Pizza Hut Pepperoni Pizza, your only serving size options are either "1 slice" or "40 pizzas." Nothing in between. and your own body emits a lot more radiation than either.
+Potassium-40 decays slowly, with individual atoms sitting around for millions or billions of years before quantum randomness finally triggers their decay. Imagine you're an atom of potassium; every second you roll 21 dice. If they all come up 6s, you decay.
+There are gazillions[3]There are about 800,000,000,000,000,000 of them, which is probably quadrillions or quintillions or something, but life is too short to sit around counting zeros and then looking up the Latin prefixes for big numbers. of atoms of potassium-40 in a banana. In any given second, 10 or 15 of them make that all-sixes roll, spit out a high-energy particle, and become stable calcium or argon.
+That high-energy particle released by the expiring potassium atom[4]RIP will promptly bonk[5]The technical term is THUNK. into other atoms, leaving everything vibrating with extra heat energy. In theory, you could use this heat energy to do work—that's how the Mars rovers Curiosity and Perseverance are powered.
+The Mars rovers use plutonium, which decays millions of times per second, releasing a lot of power. By comparison, the 15 decays per second from one banana work out to a couple of picowatts of power, roughly the power consumption of a single human cell. Even if you captured that decay energy with perfect efficiency, powering a house would require about 300 quadrillion[6]Fine, I looked it up this time. bananas, which would form a heap large enough to bury most of the skyscrapers in the NYC metro area.[7]It's 300 quadrillion bananas, Michael—what can it cost, 3 quintillion dollars?
+The potassium-40 in bananas is a terrible source of energy. But that's okay, because you know what's a great energy source? The banana itself! A banana contains about 100 calories of food energy, and if you incinerate whole bananas as fuel, it would only take about 10 bunches per day to keep your house running.
+Unfortunately for New York City, which we buried in bananas a moment ago while trying to make the radiation idea work (sorry!), radioactivity vs chemical energy isn't an either/or thing. If you piled up a lot of bananas, they would start to release that chemical energy, one way or another. The sun-baked banana pile would start to rot. The heat from the bananas decomposing in the atmosphere would immediately swamp the heat from radioactivity. The sun-dried bananas would dry, crack, and eventually burn.
+Decomposition by anaerobic bacteria deep in the pile would produce various gases, including highly flammable methane. As they bubbled up to the surface of the burning banana swamp, they could ignite; gas buildup from food waste is a major industrial explosion hazard.
+So don't worry about the radioactivity in bananas. It's the rest of the banana that's the real threat. But if you're willing to risk the danger, you could power a lot more than just your house. With just a modest weekly supply of bananas—enough to cover Liberty Island in NYC...
+...you could power the entire city.
+the books
+What If?
+Serious Scientific Answers to Absurd Hypothetical Questions
+more info >
+Thing Explainer
+Complicated Stuff in Simple Words
+more info >
+How To
+Absurd Scientific Advice for Common Real-World Problems
+more info >
+What If? 2
+More Serious Scientific Answers to Absurd Hypothetical Questions
+more info >
+comics from xkcd
+xkcd.com
+
+URL: https://what-if.xkcd.com/158/
