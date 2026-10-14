@@ -6,11 +6,16 @@
 
 ```
 hadoop-test/
-├── webdata/               # 英文网页数据（纯文本，WordCount 的输入源）
+├── webdata/               # 英文网页数据（13 篇，实验一 WordCount + 实验二倒排索引的输入源）
+├── stopwords/
+│   └── stopwords_en.txt   # 英文停词表（186 行，含撇号碎片补丁，实验二用）
 ├── scripts/
 │   ├── fetch_pages.sh     # 通用网页抓取脚本（URL -> 干净的英文纯文本）
-│   ├── urls.txt           # URL 清单示例（每行一条，可自行增删）
-│   └── run_wordcount.sh   # 一键提交 WordCount 并查看词频 Top20
+│   ├── urls.txt           # URL 清单（实验二 canonical 清单，已抓过的自动跳过）
+│   ├── run_wordcount.sh   # 一键提交 WordCount 并查看词频 Top20（实验一）
+│   └── run_inverted_index.sh  # 一键提交倒排索引作业（实验二）
+├── mapreduce/
+│   └── src/main/java/sdu/bigdata/InvertedIndex.java  # 实验二代码（填空版，TODO①~⑦）
 ├── output/                # HDFS 作业结果拉回本地的备份目录（手动用）
 └── words.txt              # 早期实验用小词表
 ```
@@ -38,6 +43,24 @@ hdfs dfs -put -f webdata/*.txt /input/webdata
 hdfs dfs -cat /output/part-r-00000 | head -30
 hdfs dfs -cat /output/part-r-00000 | sort -t$'\t' -k2 -rn | head -20   # 词频排序
 hdfs dfs -get /output/part-r-00000 output/                           # 拉回本地
+```
+
+## 实验二：文档倒排索引
+
+代码框架 + 填空说明见 `实验二执行文档.md`（7 处 TODO 填空，先填完再编译）；报告素材模板见 `实验报告-实验二.md`。
+
+```bash
+# 1. 填完 TODO①~⑦ 后编译
+bash mapreduce/doc/build.sh
+
+# 2. 数据与停词表同步到 HDFS（数据已同步过可跳过）
+hdfs dfs -put -f webdata/*.txt /input/webdata
+
+# 3. 一键提交（停词表自动同步到 /input/stopwords.txt）
+./scripts/run_inverted_index.sh       # /input/webdata -> /output/invindex
+
+# 4. 查看
+hdfs dfs -cat /output/invindex/part-r-00000 | head -30
 ```
 
 ## fetch_pages.sh 说明

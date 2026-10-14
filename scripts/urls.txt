@@ -1,13 +1,23 @@
 # 英文网页 URL 清单（每行一条，"名字 URL" 或直接 URL；# 开头为注释）
 # 直接抓 HTML 页面时脚本会自动去标签清理为纯文本
 # 注意: 依赖 JS 渲染的站点（如 go.dev）抓不到静态正文，会被自动丢弃
-# gnu-bash https://www.gnu.org/software/bash/
-# py-tutorial https://docs.python.org/3/tutorial/index.html
-# py-about https://www.python.org/about/
-# kernel-doc https://www.kernel.org/doc/html/latest/
-# tldp-bash https://tldp.org/LDP/Bash-Beginners-Guide/html/
-
-https://what-if.xkcd.com/161/
-https://what-if.xkcd.com/160/
+#
+# ===== 实验二 canonical 清单（webdata/ 共 13 篇，可直接重跑校验，已抓到的会自动跳过） =====
+# 4 篇 xkcd what-if（早期默认名 what-if-xkcd-com-*.txt）
 https://what-if.xkcd.com/158/
 https://what-if.xkcd.com/159/
+https://what-if.xkcd.com/160/
+https://what-if.xkcd.com/161/
+# 9 篇新抓（gnu 文档 / python 文档 / xkcd）
+gnu-make https://www.gnu.org/software/make/
+gnu-emacs https://www.gnu.org/software/emacs/
+gnu-gawk https://www.gnu.org/software/gawk/
+gnu-octave https://www.gnu.org/software/octave/
+py-datastructures https://docs.python.org/3/tutorial/datastructures.html
+py-functions https://docs.python.org/3/library/functions.html
+py-styledemo https://docs.python.org/3/tutorial/controlflow.html
+xkcd-157 https://what-if.xkcd.com/157/
+xkcd-162 https://what-if.xkcd.com/162/
+# docs.python.org 偶发抓取失败，重跑本清单可再试
+py-intro https://docs.python.org/3/tutorial/intro.html
+# kernel-quickstart https://www.kernel.org/doc/html/latest/admin-guide/quickstart.html   # 正文过短被丢弃

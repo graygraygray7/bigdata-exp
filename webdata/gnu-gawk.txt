@@ -1,0 +1,60 @@
+Gawk
+If you are like many computer users, you would frequently like to
+make changes in various text files wherever certain patterns appear,
+or extract data from parts of certain lines while discarding the rest.
+To write a program to do this in a language such as C or Pascal is a
+time-consuming inconvenience that may take many lines of code.
+The job is easy with awk, especially the GNU implementation: gawk.
+The awk utility interprets a special-purpose programming language
+that makes it possible to handle simple data-reformatting jobs with
+just a few lines of code.
+The source code for the latest release of GNU awk is available from
+the GNU project's ftp server
+and its many mirrors. The current
+development sources are available through the gawk project on
+savannah.
+The main gawk manual is available
+online.
+A separate gawkinet
+manual for the special TCP/IP networking features of GNU
+awk is also available.
+A separate gawkworkflow
+manual describing how to contribute to GNU awk developement
+is also available.
+A separate Persistent-Memory
+gawk User Manual describing the persistent memory feature
+is also available.
+Bug reports and feature suggestions for gawk should be sent to
+bug-gawk@gnu.org.
+Use the web interface
+to subscribe.
+It is highly preferable to submit bug reports using the gawkbug
+script that ships with gawk.
+Requests for help and general questions about gawk
+should be sent to help-gawk@gnu.org.
+Use the web interface
+to subscribe.
+Announcements of gawk releases are sent to both of the above lists as well
+as to info-gnu@gnu.org.
+To subscribe to these or any GNU mailing lists, please send an empty mail
+with a Subject: header of just "subscribe" to the relevant -request
+list. For example, to subscribe yourself to the GNU announcement list,
+you would send mail to
+info-gnu-request@gnu.org.
+Or you can use the web interface.
+Return to GNU's home page.
+Please send FSF & GNU inquiries & questions to
+gnu@gnu.org.
+There are also other ways to contact the FSF.
+Please send comments on these web pages to
+webmasters@gnu.org,
+send other questions to
+gnu@gnu.org.
+Copyright © 2008, 2020, 2022, 2023 Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+Verbatim copying and distribution of this entire article is
+permitted in any medium, provided this notice is preserved.
+Updated:
+$Date: 2023/02/27 05:32:33 $ $Author: arnold $
+
+URL: https://www.gnu.org/software/gawk/
