@@ -42,7 +42,7 @@ hdfs dfs -ls "$OUT"
 
 echo ""
 echo ">>> 结果预览（前 20 行）:"
-hdfs dfs -cat "$OUT/part-r-00000" | grep -a "\t <" | head -20
+hdfs dfs -cat "$OUT/part-r-00000" | grep -a $'\t <' | head -20 || true
 
 echo ""
 echo ">>> 顺手抽查几个跨文档词:"
@@ -52,10 +52,10 @@ done
 
 echo ""
 echo ">>> 统计:"
-RES=$(hdfs dfs -cat "$OUT/part-r-00000" | grep -a "\t <")
+RES=$(hdfs dfs -cat "$OUT/part-r-00000" | grep -a $'\t <')
 RES_NUM=$(echo "$RES" | wc -l)
 MULTI=$(echo "$RES" | awk -F';' 'NF>3' | wc -l)
 echo "  词表共 $RES_NUM 个单词，其中同时出现在 3 篇以上文档的 $MULTI 个"
 RES_FILE=${OUT##*/}
-hdfs dfs -get "$OUT/part-r-00000" "output/${RES_FILE}.txt.part" 2>/dev/null && \
-  echo "  已拉回本地备份: output/${RES_FILE}.txt.part" || true
+hdfs dfs -get "$OUT/part-r-00000" "output/${RES_FILE}.part-r-00000" 2>/dev/null && \
+  echo "  已拉回本地备份: output/${RES_FILE}.part-r-00000" || true

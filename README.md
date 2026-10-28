@@ -1,6 +1,6 @@
-# Hadoop WordCount 工作区
+# Hadoop 大数据实验代码与数据
 
-本机伪分布式 Hadoop 3.3.6（`/home/gray/hadoop-3.3.6`，启动脚本 `~/hadoop.sh`）的数据采集与 WordCount 实验工作区。
+伪分布式 Hadoop 3.3.6（`/home/gray/hadoop-3.3.6`，启动脚本 `~/hadoop.sh`）工作区：HDFS Java API、MapReduce 作业、数据采集脚本与实验数据。
 
 ## 目录结构
 
@@ -15,7 +15,7 @@ hadoop-test/
 │   ├── run_wordcount.sh   # 一键提交 WordCount 并查看词频 Top20（实验一）
 │   └── run_inverted_index.sh  # 一键提交倒排索引作业（实验二）
 ├── mapreduce/
-│   └── src/main/java/sdu/bigdata/InvertedIndex.java  # 实验二代码（填空版，TODO①~⑦）
+│   └── src/main/java/sdu/bigdata/InvertedIndex.java  # 倒排索引实现（实验二）
 ├── output/                # HDFS 作业结果拉回本地的备份目录（手动用）
 └── words.txt              # 早期实验用小词表
 ```
@@ -47,10 +47,10 @@ hdfs dfs -get /output/part-r-00000 output/                           # 拉回本
 
 ## 实验二：文档倒排索引
 
-代码框架 + 填空说明见 `实验二执行文档.md`（7 处 TODO 填空，先填完再编译）；报告素材模板见 `实验报告-实验二.md`。
+源码见 `mapreduce/src/main/java/sdu/bigdata/InvertedIndex.java`。
 
 ```bash
-# 1. 填完 TODO①~⑦ 后编译
+# 1. 编译
 bash mapreduce/doc/build.sh
 
 # 2. 数据与停词表同步到 HDFS（数据已同步过可跳过）

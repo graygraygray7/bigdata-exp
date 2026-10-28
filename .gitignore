@@ -9,3 +9,8 @@ hdfs-api/doc/build.old
 mapreduce/doc/build
 mapreduce/doc/build.old
 output/
+
+# 开发文档与报告（仅本地保留，不纳入仓库）
+/*.md
+!/README.md
+/*.docx
