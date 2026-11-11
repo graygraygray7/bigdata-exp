@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+  伪分布式 HBase：元数据与数据存放在本机 HDFS，ZooKeeper 由 HBase 自带（HBASE_MANAGES_ZK=true）。
+  WSL2/virtioproxy 环境下所有组件强制走 localhost，并固定各服务端口。
+-->
+<configuration>
+  <property>
+    <name>hbase.rootdir</name>
+    <value>hdfs://localhost:19001/hbase</value>
+    <description>HBase 数据根目录（与 Hadoop core-site.xml 的 fs.defaultFS 一致）</description>
+  </property>
+  <property>
+    <name>hbase.cluster.distributed</name>
+    <value>true</value>
+    <description>伪分布式模式：HMaster + HRegionServer 分进程运行</description>
+  </property>
+  <property>
+    <name>hbase.tmp.dir</name>
+    <value>/home/gray/hbase-2.5.16/tmp</value>
+  </property>
+  <property>
+    <name>hbase.wal.provider</name>
+    <value>filesystem</value>
+    <description>HBase 2.5 默认 AsyncFSWAL 在 Hadoop 3.3.6 上反射调用 ProtobufDecoder 会报 IllegalArgumentException，改用普通 FSWAL</description>
+  </property>
+
+  <!-- 自带 ZooKeeper -->
+  <property>
+    <name>hbase.zookeeper.quorum</name>
+    <value>localhost</value>
+  </property>
+  <property>
+    <name>hbase.zookeeper.property.clientPort</name>
+    <value>2181</value>
+  </property>
+  <property>
+    <name>hbase.zookeeper.property.dataDir</name>
+    <value>/home/gray/hbase-2.5.16/data/zookeeper</value>
+  </property>
+
+  <!-- WSL2 只有 127.0.0.1 可达：固定主机名与端口，避免注册成主机名或随机高端口 -->
+  <property>
+    <name>hbase.master.hostname</name>
+    <value>localhost</value>
+  </property>
+  <property>
+    <name>hbase.regionserver.hostname</name>
+    <value>localhost</value>
+  </property>
+  <property>
+    <name>hbase.master.port</name>
+    <value>16000</value>
+  </property>
+  <property>
+    <name>hbase.master.info.port</name>
+    <value>16010</value>
+  </property>
+  <property>
+    <name>hbase.regionserver.port</name>
+    <value>16020</value>
+  </property>
+  <property>
+    <name>hbase.regionserver.info.port</name>
+    <value>16030</value>
+  </property>
+</configuration>

@@ -14,3 +14,13 @@ output/
 /*.md
 !/README.md
 /*.docx
+
+# 实验三：编译产物与大体积原始数据
+hbase/classes/
+hbase/hbase-demo-1.0.jar
+pagerank/classes/
+pagerank/pagerank-1.0.jar
+pagerank/data/web-graph.txt
+pagerank/data/*.gz
+pagerank/data/*.tar.gz
+screenshots/

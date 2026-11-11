@@ -1,0 +1,50 @@
+# 实验三 第一部分 HBase Shell 操作清单
+# 用法: /home/gray/hbase-2.5.16/bin/hbase shell < hbase/shell/hbase_shell_tasks.hbase
+
+# 1. 列出 HBase 所有表
+list
+describe 'student'
+describe 'sc'
+
+# 2. 显示指定表的全部记录
+scan 'student'
+scan 'course'
+scan 'sc'
+
+# 3. 浏览指定列族 / 列
+scan 'sc', {COLUMNS => 'Score'}
+scan 'sc', {COLUMNS => 'Score:Math'}
+
+# 4. 添加 / 删除列族与列（用独立表 shell_demo 演示，避免破坏主表）
+create 'shell_demo', 'info'
+put 'shell_demo', 'r1', 'info:name', 'Tom'
+put 'shell_demo', 'r1', 'info:age', '20'
+scan 'shell_demo'
+alter 'shell_demo', NAME => 'extra'
+put 'shell_demo', 'r1', 'extra:note', 'hello'
+scan 'shell_demo'
+delete 'shell_demo', 'r1', 'extra:note'
+scan 'shell_demo'
+alter 'shell_demo', NAME => 'extra', METHOD => 'delete'
+describe 'shell_demo'
+disable 'shell_demo'
+drop 'shell_demo'
+
+# 5. 统计表的行数
+count 'student'
+count 'course'
+count 'sc'
+
+# 6. 清空表（用临时表演示）
+create 'tmp_shell', 'info'
+put 'tmp_shell', 'a', 'info:v', '1'
+put 'tmp_shell', 'b', 'info:v', '2'
+count 'tmp_shell'
+truncate 'tmp_shell'
+count 'tmp_shell'
+disable 'tmp_shell'
+drop 'tmp_shell'
+
+# 7. 最终表清单
+list
+exit
